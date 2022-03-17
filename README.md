@@ -1,62 +1,38 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
-
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+<h2>The Codepanthers</h2>
+<blockquote><p>We have created a portfolio site using Laravel. Where users upload their own portfolio.We have established the site on heroku platform.</p></blockquote>
+<blockquote><a href="">https://thecodepanthers.herokuapp.com/</a></blockquote>
+<h2>1) Developed the site from scratch</h2>
+<p>I have developed & designed the site from scratch, Purpose of building the site is that users can register themselves and then upload their portfolio to the website. The main specialisation of the site is that the account and portfolios need to be approveda hr from the admin first. 
 </p>
-
-## About Laravel
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+<blockquote><a href="">https://thecodepanthers.herokuapp.com/</a></blockquote>
+<img src="https://user-images.githubusercontent.com/101111690/158738349-e9a585c1-30c5-42df-a54b-efa3edb09385.png">
+<h2>2) How can we register to make a user account?</h2>
+<p>If we want to use this site for uploading our own portfolio, We need to register first to make an account. A mail is sent to the user and admin when a new user is registered. We can click on the join for registration. </p>
+<blockquote><a href="">https://thecodepanthers.herokuapp.com/</a></blockquote>
+<img src="https://user-images.githubusercontent.com/101111690/158739090-c57e0c6b-5ca5-4957-bb31-3fb30038e4c8.png">
+<h2> User registration process complete in three steps</h2>
+<p>a) We will register using email:- The first step is we need to enter the First name, Last name ,Email address and set our own password for the account</p>
+<blockquote><a href="">https://thecodepanthers.herokuapp.com/register</a></blockquote>
+<img src="https://user-images.githubusercontent.com/101111690/158740357-40237615-5804-458e-81b8-71c09f15975b.png">
+<p>b) Enter Personal details:- In the second step we need to enter details like Country name, State name, City name, Postal code, Date of birth and mobile number then click on save Button</p>
+<img src="https://user-images.githubusercontent.com/101111690/158740857-7eae8bfc-cee5-44fb-953b-396304db181a.png">
+<p>c) Upload profile details: In the third step you need to enter profile details like profile data it shows which type of data you have to upload on the portfolio. Second is profile description, In this we need to enter our profile description. Third is upload a profile photo in which we will set our profile photo. In the last field is skills, we need to enter our skills in this field and then click on save button.</p>
+<img src="https://user-images.githubusercontent.com/101111690/158741011-6908cdef-2415-4235-8a82-29e916163734.png">
+<h2>3) Account is approved by admin</h2>
+<p>After registering for the account our profile will be approved by the admin and a mail is sent to the registered user when their account is approved by the admin.Once after the approval you can login your account by using your own email id and password click by on login.</p>
+<blockquote><a href="">https://thecodepanthers.herokuapp.com/admin/dashboard</a></blockquote>
+<img src="https://user-images.githubusercontent.com/101111690/158741290-eeabd940-9e72-4d66-89ea-505c0854fb65.png">
+<h2>4) Upload the portfolio</h2>
+<p>We can upload our portfolio on the site, we need to login our account by login and then upload our own portfolio by clicking on the button to add the portfolio.</p>
+<blockquote><a href="">https://thecodepanthers.herokuapp.com/user/display_all_portfolio/7</a></blockquote>
+<img src="https://user-images.githubusercontent.com/101111690/158741528-53bf5c9e-7c52-4657-a29c-e2efe57f8421.png">
+<p>a) When we click on the “add portfolio” button then a form popup appears with multiple fields like portfolio title, Description, Upload portfolio file, summer, client name and client reviews.</p>
+<blockquote><a href="">https://thecodepanthers.herokuapp.com/portfolio-form</a></blockquote>
+<img src="https://user-images.githubusercontent.com/101111690/158741707-b61146aa-c32f-4a48-9ef8-d4c29f295d30.png">
+<p>b) when we click on the submit button then our portfolio is shown like this.</p>
+<blockquote><a href="">https://thecodepanthers.herokuapp.com/user/display_all_portfolio/7</a></blockquote>
+<img src="https://user-images.githubusercontent.com/101111690/158741910-9cc328ec-ae42-4b6e-9e36-7aca77bd338f.png">
+<h2>5) Title:- User Portfolio is approver by admin</h2>
+<p>When a user uploads their own portfolio then the portfolio will be approved by the admin and mail is sent to the user when their portfolio is approved by the admin.</p>
+<blockquote><a href="">https://thecodepanthers.herokuapp.com/admin/user-portfolio-display/7</a></blockquote>
+<img src="https://user-images.githubusercontent.com/101111690/158742280-e94e3c84-d3ad-4d76-86f7-695bcef4ebbe.png">
