@@ -8,7 +8,7 @@
         <h1 class="text-white  section_container_p_one">Create your profile &<br/>Upload your portfolio <a href="{{ route('register') }}" class="text-white"><i class="fa fa-arrow-circle-right"></i></a></h1>    
       </div>
       <div class="col-md-7 mt-4 mb-4 section_container_img animate__animated animate__bounceInRight animate__delay-2s">
-        <img src="{{ asset('website_images/mid-img.png') }}" class="img-fluid rounded align-center">
+        <img src="website_images/mid-img.png" class="img-fluid rounded align-center">
       </div>
     </div>
   </div>
@@ -111,7 +111,7 @@
     <div class="row">
       <div class="col-md-6 mt-5 justify-content-center">
         <div class="content-container">
-          <h1 class="text-white mt-5">Watch Vedio</h1>
+          <h1 class="text-white mt-5">Watch Video</h1>
           <p class="text-white">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
         </div>
       </div>
@@ -431,7 +431,7 @@
   <!-- Social buttons -->
 
   <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2021 Copyright:
+  <div class="footer-copyright text-center py-3">© 2023 Copyright:
     <a href="#"> thecodepanthers</a>
   </div>
   <!-- Copyright -->
