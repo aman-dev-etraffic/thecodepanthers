@@ -29,7 +29,9 @@
 						<div class="form-group row">
 							<lable for="image" class="col-md-4 col-form-label text-md-right">{{ __('Image')}}</lable>
 							<div class="col-md-6">
-								<input id="image" type="file" class="form-control" name="image" value="{{ $data->image }}">
+							    <img class="rounded img-fluid" src="{{ asset('images/'. $data->image) }}"  height="100" width="100">
+								<input id="image" type="file" class="form-control" name="image">
+								<input id="image" type="hidden" class="form-control" name="image" value="{{ $data->image ?? '' }}">
 							</div>
 						</div>
 

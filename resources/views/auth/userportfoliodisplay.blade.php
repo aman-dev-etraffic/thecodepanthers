@@ -27,7 +27,7 @@
 				<td> {{ $userdata->customer_id }} </td>
 				<td> {{ $userdata->title }} </td>
 				<td> {{ $userdata->description }} </td>
-				<td> {{ $userdata->image }} </td>
+				<td><img src="{{ asset('images/'.$userdata->image)}}" width="80" height="80"></td>
 				<td> {{ $userdata->summary }} </td>
 				<td> {{ $userdata->client_name }} </td>
 				<td> {{ $userdata->client_review }} </td>

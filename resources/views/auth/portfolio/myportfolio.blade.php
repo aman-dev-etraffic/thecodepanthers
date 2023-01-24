@@ -36,7 +36,7 @@
                		<td>{{ $loop->iteration}}</td>
                     <td>{{ $users->title }}</td>
                     <td>{{ $users->description }}</td>
-                    <td><img src="{{ asset('public/images/'. $users->image)}}" height="70px" width="80px" class="rounded img-fluid"></td>
+                    <td><img src="{{ url('images/'. $users->image)}}" height="70px" width="80px" class="rounded img-fluid"></td>
                     <td>{{ $users->summary }}</td>
                     <td>{{ $users->client_name }}</td>
                     <td>{{ $users->client_review }}</td>
